@@ -47,7 +47,7 @@ public class MyStepdefsClass {
 
     @And("I have clicked on Supporter Account")
     public void iHaveClickedOnSupporterAccount() {
-        findWaitClick(myDriver, By.linkText("CREATE A NEW SUPPORTER ACCOUNT"));
+        findWaitClick(myDriver, By.linkText("CREATE AN ACCOUNT"));
     }
 
     @And("I have written in {string} for Date of Birth")
